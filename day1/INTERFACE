@@ -1,0 +1,14 @@
+INTERFACE IN JAVA:
+INTERFACE:
+		==>Interfaces specify what a class must do and not how,it is  defined as the blueprint of the class.
+		==>An interface can have abstract methods and static constants.
+		==>By using the interface, we can achieve abstraction in java.
+		==>We can also achieve multiple inheritance in java using interface. 
+		==>In java, the "interface" keyword is used to declare the interface.
+		==>Like class, the interface can also inherit another interface by using "extends" keyword. However, a class "implements" the interface.
+		==>An interface can have another interface which is known as a nested interface
+		==>simple syntax : interface <interface_name>{  
+								// declare constant fields  
+								// declare methods that abstract   
+								// by default.  
+						   }  

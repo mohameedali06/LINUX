@@ -1,0 +1,14 @@
+#pragma in C and c++:
+		==>The #pragma is a directive that is provided by the C standard in order to provide extra required details to the compiler.
+		==>These extra details can be anything that was somehow not passed within the program or the code logic.
+		==>The #pragma  is responsible for turning on or off a few features.
+		==>Basically, the pragma directive informs the compiler that a special request is being made.
+		==>These directives can be different for different compilers, meaning they are compiler-specific.
+		==>syntax : #pragma token-string
+		==>pragma Directives & Description :
+				1)  #pragma startup - Before the execution of main(), the function specified in pragma is needed to run.
+				2)	#pragma exit - Before the end of program, the function specified in pragma is needed to run.
+				3)	#pragma warn - Used to hide the warning messages.
+				4)	#pragma GCC dependency - Checks the dates of current and other file. If other file is recent, it shows a warning message.
+				5)	#pragma GCC system_header - It treats the code of current file as if it came from system header.
+				6)	#pragma GCC poison - Used to block an identifier from the program.

@@ -1,0 +1,26 @@
+Java Lambda Expressions :
+
+	==>A lambda expression is a short block of code which takes in parameters and returns a value.
+	==>Lambda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of a method.
+	==>It is very useful in collection library. It helps to iterate, filter and extract data from collection.
+	==>Java lambda expression is treated as a function, so compiler does not create .class file.
+	==>The Lambda expression is used to provide the implementation of an interface which has functional interface.
+	==>It saves a lot of code
+	==>lambda expression syntax :
+			Java lambda expression is consisted of three components.
+				1) Argument-list: It can be empty or non-empty as well.
+				2) Arrow-token: It is used to link arguments-list and body of expression.
+				3) Body: It contains expressions and statements for lambda expression.
+						syntax : (argument-list) -> {body}  
+						* No Parameter Syntax
+							() -> {  
+								//Body of no parameter lambda  
+							} 
+						*One Parameter Syntax
+							(p1) ->{  
+									//Body of single parameter lambda  
+							}  
+						*Two Parameter Syntax
+							(p1,p2) -> {  
+									//Body of multiple parameter lambda  
+							}  
